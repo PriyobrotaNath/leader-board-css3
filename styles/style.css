@@ -23,9 +23,64 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+/* ------------------
+    Nav styles
+--------------------- */
+.navbar{
+    margin-bottom:61px;  
+}
+nav{
+    background: #562EFF;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+}
+nav > ul{
+    display:flex;
+    
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px; 
+    padding: 0px 10px;
+    background-color: #562EFF;
+    border-radius: 5px;
+   
+    
+}
+nav li:hover{
+    background-color:darkgray;
+}
+nav li a{
+    text-decoration: none;
+    color:White;
+    font-size: 20px;
+}
+nav > ul > li:hover > ul{
+    display:block;
+    
+}
+.dropdown{
+    display:none;
+    position:absolute;
+    opacity: 0.85;
+    padding:0px;
+    text-align: center;
+    
+}
+.dropdown li{
+    padding:0;
+    margin: 0;
+}
+
 
 /* top players styles */
 .top-players{
+    margin-top:30px;
     margin-bottom: 30px;
 }
 .section-title{
